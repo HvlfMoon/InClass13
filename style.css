@@ -7,4 +7,31 @@
 html {
   font-size: 24px;
   color: #144031;
+  font-family: helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background-color: #d4f0fc;
+}
+
+.content {
+  display: grid;
+  grid-template: repeat(3, 240px) / repeat(2, 240px);
+  margin-bottom: 150px;
+}
+
+.img1 {
+  background-image: url("https://i.pinimg.com/1200x/06/a5/1e/06a51e9d213cf5cd790d81eaca0d09e2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.img2 {
+  background-image: url("https://i.pinimg.com/1200x/ed/93/f9/ed93f9ee550b749c6b65f1d99485774d.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.img3 {
+  background-image: url("https://i.pinimg.com/736x/8b/51/cb/8b51cb3b2aa40583ee4e8be3f6f80f43.jpg");
+  background-size: cover;
+  background-position: center;
 }
