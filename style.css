@@ -64,7 +64,7 @@ a {
   display: grid;
   justify-content: center;
   align-content: center;
-  grid-template: repeat(3, 350px) / repeat(2, 375px);
+  grid-template: repeat(3, 20vw) / repeat(2, 25vw);
   gap: 1vw;
   margin-bottom: 150px;
   background-color: white;
