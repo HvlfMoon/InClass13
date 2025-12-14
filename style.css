@@ -52,18 +52,7 @@ a {
   display: grid;
   grid-template: repeat(3, 300px) / repeat(2, 240px);
   margin-bottom: 150px;
-}
-
-.subhead1 {
   background-color: white;
-}
-
-.subhead2 {
-  background-color: white;
-}
-
-.subhead3 {
-   background-color: white;
 }
 
 .img1 {
