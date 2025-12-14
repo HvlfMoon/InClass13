@@ -62,6 +62,7 @@ a {
 .content {
   display: grid;
   grid-template: repeat(3, 300px) / repeat(2, 300px);
+  row-gap: 8px;
   margin-bottom: 150px;
   background-color: white;
 }
