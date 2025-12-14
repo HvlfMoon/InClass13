@@ -6,20 +6,68 @@
 
 html {
   font-size: 24px;
-  color: #144031;
+  color: #01303f;
   font-family: helvetica, Arial, sans-serif;
   font-size: 16px;
   background-color: #d4f0fc;
 }
 
+body {
+  width: 480px;
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 1rem 1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  background-color: #01303f;
+}
+
+h2 {
+  font-size: 2rem;
+  padding: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  font-style: italic;
+  color: #02a9f7;
+}
+
+p {
+  font-size: 0.8rem;
+  padding: 1rem;
+}
+
+a {
+  padding: 1rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #01303f;
+}
+
 .content {
   display: grid;
-  grid-template: repeat(3, 240px) / repeat(2, 240px);
+  grid-template: repeat(3, 300px) / repeat(2, 240px);
   margin-bottom: 150px;
 }
 
+.subhead1 {
+  background-color: white;
+}
+
+.subhead2 {
+  background-color: white;
+}
+
+.subhead3 {
+   background-color: white;
+}
+
 .img1 {
-  background-image: url("https://i.pinimg.com/1200x/06/a5/1e/06a51e9d213cf5cd790d81eaca0d09e2.jpg");
+  background-image: url("https://i.pinimg.com/1200x/7a/0a/49/7a0a4974fbc48def7a8f184b2948badc.jpg");
   background-size: cover;
   background-position: center;
 }
