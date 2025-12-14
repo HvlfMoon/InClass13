@@ -48,6 +48,16 @@ a {
   color: #01303f;
 }
 
+.blurb {
+  color: #01303f;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+  padding: 2rem;
+}
+
 .content {
   display: grid;
   grid-template: repeat(3, 300px) / repeat(2, 240px);
@@ -59,16 +69,22 @@ a {
   background-image: url("https://i.pinimg.com/1200x/7a/0a/49/7a0a4974fbc48def7a8f184b2948badc.jpg");
   background-size: cover;
   background-position: center;
+  border-radius: 10%;
+  margin: 10px;
 }
 
 .img2 {
   background-image: url("https://i.pinimg.com/1200x/ed/93/f9/ed93f9ee550b749c6b65f1d99485774d.jpg");
   background-size: cover;
   background-position: center;
+  border-radius: 10%;
+  margin: 10px;
 }
 
 .img3 {
   background-image: url("https://i.pinimg.com/736x/8b/51/cb/8b51cb3b2aa40583ee4e8be3f6f80f43.jpg");
   background-size: cover;
   background-position: center;
+  border-radius: 10%;
+  margin: 10px;
 }
